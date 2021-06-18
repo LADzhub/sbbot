@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/84b2017bc2f3c90f2e61c.jpg"
+TECHNO_IMG = "https://telegra.ph/file/4ca7e81f2583b4931b356.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -143,14 +143,14 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/alavalaathy")],
-                                                                                   [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD 《ᗷ卄ΛᔕIKKΛ B0T》TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                       url="https://github.com/holymwon/sbbot")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("vibes reloaded")
 
 
 def send_start(bot, update):
