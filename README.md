@@ -1,6 +1,6 @@
 # GRAND OFFICIAL
 
-DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fholymwon22%2Fsbbot&template=https%3A%2F%2Fgithub.com%2Fholymwon22%2Fsbbot)
+DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fholymwon%2Fsbbot&template=https%3A%2F%2Fgithub.com%2Fholymwon%2Fsbbot)
 [.](https://heroku.com/deploy)
 Credits - [LEGEND X](https://t.me/legendx22)
 
