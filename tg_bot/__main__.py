@@ -27,8 +27,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **ഹലോ! {},ഞാൻ {}!** 
-ഞാൻ ഒരു **SUPERB**  group_management_bot ആണ്.
-കൂടുതൽ കമാന്റുകൾ അറിയുവാൻ HELP ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ.
+ഞാൻ ഒരു **SUPERB**  group management bot ആണ്.
+കൂടുതൽ കമാന്റുകൾ അറിയുവാൻ «HELP» ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ.
 
 """
 
@@ -139,13 +139,13 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="HELP",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="«HELP»",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="MY B0SS",
+                                                                                   InlineKeyboardButton(text="«MY-B0SS»",
                                                                        url="t.me/alavalaathy")],
                                                                                    [InlineKeyboardButton(text="ADD《ᗷ卄ΛᔕIKKΛ B0T》TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
+                                                                                   InlineKeyboardButton(text="«C0DE»",
                                                                        url="https://github.com/holymwon/sbbot")
                                                                                  ]]))
 
