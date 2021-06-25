@@ -28,7 +28,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 **ഹലോ! {},ഞാൻ {}!** 
 ഞാൻ ഒരു **SUPERB**  group_management_bot ആണ്.
-Find the list of available commands with /help.
+കൂടുതൽ കമാന്റുകൾ അറിയുവാൻ HELP ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ.
 
 """
 
