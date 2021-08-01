@@ -152,9 +152,9 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
 
-                                                                                   InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
+                                                                                   InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ",
 
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                       url="https://t.me/teamladz_bothub")
 
                                                                                  ]]))
     else:
