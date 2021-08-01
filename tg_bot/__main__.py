@@ -139,16 +139,24 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="«HELP»",
-                                                                       callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="«MY-B0SS»",
-                                                                       url="t.me/alavalaathy")],
-                                                                                   [InlineKeyboardButton(text="ADD《ᗷ卄ΛᔕIKKΛ B0T》TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="«C0DE»",
-                                                                       url="https://github.com/holymwon/sbbot")
-                                                                                 ]]))
 
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ʜᴇʟᴘ",
+
+                                                                       callback_data="help_back".format(bot.username)),
+
+                                                                                   InlineKeyboardButton(text="ᴅᴇᴠ",
+
+                                                                       url="t.me/alavalaathy")],
+
+                                                                                   [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+
+                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
+
+                                                                                   InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
+
+                                                                       url="https://github.com/legendx22/GRANDROBOT")
+
+                                                                                 ]]))
     else:
         update.effective_message.reply_text("vibes reloaded")
 
