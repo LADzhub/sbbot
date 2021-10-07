@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                                                                                    InlineKeyboardButton(text="ᴅᴇᴠ",
 
-                                                                       url="t.me/alavalaathy")],
+                                                                       url="t.me/alavalathy")],
 
                                                                                    [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
 
@@ -156,7 +156,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                                                                                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ",
 
-                                                                       url="https://t.me/teamladz_bothub")
+                                                                       url="https://t.me/team_lad")
 
                                                                                  ]]))
     else:
